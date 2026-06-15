@@ -1,0 +1,136 @@
+# InsightDrop CLI – Docker Setup
+
+Zero-persistence sales analytics pipeline. No FastAPI, no server — pure terminal.
+
+---
+
+## Project Structure
+
+```
+insightdrop/
+├── insightdrop.py      ← CLI entry point
+├── pipeline.py         ← ETL core
+├── generate_data.py    ← sample data generator
+├── requirements.txt
+├── Dockerfile
+├── docker-compose.yml
+├── .dockerignore
+├── data/               ← drop your CSV/XLSX files here
+└── exports/            ← reports are written here
+```
+
+---
+
+## Quick Start
+
+```bash
+# 1. Build the image (one time)
+docker compose build
+
+# 2. Generate 500-row sample data into data/sales.csv
+docker compose run --rm insightdrop generate
+
+# 3. Analyze and print results to terminal
+docker compose run --rm insightdrop analyze data/sales.csv
+
+# 4. Export to Excel  →  exports/
+docker compose run --rm insightdrop export data/sales.csv --format excel
+
+# 5. Export to PDF  →  exports/
+docker compose run --rm insightdrop export data/sales.csv --format pdf
+```
+
+---
+
+## All Commands
+
+### Generate sample data
+```bash
+docker compose run --rm insightdrop generate
+docker compose run --rm insightdrop generate --rows 1000
+docker compose run --rm insightdrop generate --output data/q1_sales.csv
+```
+
+### Analyze (terminal output)
+```bash
+# Formatted tables + KPIs
+docker compose run --rm insightdrop analyze data/sales.csv
+
+# Raw JSON output
+docker compose run --rm insightdrop analyze data/sales.csv --json
+
+# Your own file (drop it in data/ first)
+docker compose run --rm insightdrop analyze data/my_file.xlsx
+```
+
+### Export
+```bash
+# Excel (default) — 6 sheets: KPIs, Monthly, Products, Region, Category, Cleaned Data
+docker compose run --rm insightdrop export data/sales.csv
+
+# PDF report
+docker compose run --rm insightdrop export data/sales.csv --format pdf
+
+# Custom output filename (saved into exports/)
+docker compose run --rm insightdrop export data/sales.csv --format pdf --out q1_report
+```
+
+### Convenience shortcuts (pre-wired in docker-compose.yml)
+```bash
+docker compose run --rm generate       # generate 500-row CSV
+docker compose run --rm analyze        # analyze data/sales.csv
+docker compose run --rm export-excel   # export to Excel
+docker compose run --rm export-pdf     # export to PDF
+```
+
+---
+
+## Use Your Own File
+
+Drop any CSV or XLSX into the `data/` folder, then:
+```bash
+docker compose run --rm insightdrop analyze data/your_file.csv
+docker compose run --rm insightdrop export  data/your_file.xlsx --format pdf
+```
+
+### Required columns (aliases accepted)
+
+| Column         | Aliases                                  |
+|----------------|------------------------------------------|
+| `order_id`     | `orderid`, `order id`                    |
+| `product_name` | `productname`, `product name`, `product` |
+| `category`     | —                                        |
+| `quantity`     | `qty`, `units`                           |
+| `price`        | `unit_price`, `unit price`               |
+| `cost`         | `unit_cost`, `unit cost`                 |
+| `order_date`   | `date`, `sale_date`                      |
+| `region`       | `area`, `zone`                           |
+
+---
+
+## Without Docker Compose
+
+```bash
+# Build manually
+docker build -t insightdrop-cli .
+
+# Run (mount your local folders)
+docker run --rm \
+  -v $(pwd)/data:/app/data \
+  -v $(pwd)/exports:/app/exports \
+  insightdrop-cli generate
+
+docker run --rm \
+  -v $(pwd)/data:/app/data \
+  -v $(pwd)/exports:/app/exports \
+  insightdrop-cli analyze data/sales.csv
+
+docker run --rm \
+  -v $(pwd)/data:/app/data \
+  -v $(pwd)/exports:/app/exports \
+  insightdrop-cli export data/sales.csv --format pdf
+```
+
+---
+
+Built for the **بايب لاين | Pipeline** YouTube series.

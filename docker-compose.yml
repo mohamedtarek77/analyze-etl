@@ -1,0 +1,6 @@
+services:
+  insightdrop:
+    build: .
+    image: insightdrop-cli
+    volumes:
+      - ./data:/app/data
