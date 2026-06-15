@@ -1,6 +1,6 @@
 services:
-  insightdrop:
+  analyze-etl:
     build: .
-    image: insightdrop-cli
+    image: analyze-etl-cli
     volumes:
       - ./data:/app/data

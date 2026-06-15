@@ -43,16 +43,6 @@ def _normalise_columns(df: pd.DataFrame) -> pd.DataFrame:
     return df.rename(columns=rename_map)
 
 
-def _load_file(source: Union[str, Path, BytesIO], filename: str) -> pd.DataFrame:
-    ext = filename.rsplit(".", 1)[-1].lower() if "." in filename else ""
-    if ext == "csv":
-        return pd.read_csv(source)
-    elif ext in ("xlsx", "xls"):
-        return pd.read_excel(source)
-    else:
-        raise ValueError(f"Unsupported file type '.{ext}'. Allowed: csv, xlsx, xls")
-
-
 def _validate_columns(df: pd.DataFrame) -> None:
     missing = [c for c in REQUIRED_COLUMNS if c not in df.columns]
     if missing:
@@ -99,22 +89,6 @@ def _clean(df: pd.DataFrame) -> pd.DataFrame:
         df[col] = df[col].astype(str).str.strip().str.title()
 
     return df.reset_index(drop=True)
-
-
-# ── public API ────────────────────────────────────────────────────────────────
-
-def run_pipeline(source: Union[str, Path, BytesIO], filename: str) -> dict:
-    """Return analytics dict only."""
-    df = _load_file(source, filename)
-    df = _clean(df)
-    return _build_analytics(df)
-
-
-def run_pipeline_full(source: Union[str, Path, BytesIO], filename: str) -> tuple[dict, pd.DataFrame]:
-    """Return (analytics dict, cleaned DataFrame)."""
-    df = _load_file(source, filename)
-    df = _clean(df)
-    return _build_analytics(df), df
 
 
 def _build_analytics(df: pd.DataFrame) -> dict:
@@ -186,3 +160,29 @@ def _build_analytics(df: pd.DataFrame) -> dict:
             },
         },
     }
+
+
+# ── public API ────────────────────────────────────────────────────────────────
+
+def _load_file(source: Union[str, Path, BytesIO], filename: str) -> pd.DataFrame:
+    ext = filename.rsplit(".", 1)[-1].lower() if "." in filename else ""
+    if ext == "csv":
+        return pd.read_csv(source)
+    elif ext in ("xlsx", "xls"):
+        return pd.read_excel(source)
+    else:
+        raise ValueError(f"Unsupported file type '.{ext}'. Allowed: csv, xlsx, xls")
+
+
+def run_pipeline(source: Union[str, Path, BytesIO], filename: str) -> dict:
+    """Return analytics dict only."""
+    df = _load_file(source, filename)
+    df = _clean(df)
+    return _build_analytics(df)
+
+
+def run_pipeline_full(source: Union[str, Path, BytesIO], filename: str) -> tuple[dict, pd.DataFrame]:
+    """Return (analytics dict, cleaned DataFrame)."""
+    df = _load_file(source, filename)
+    df = _clean(df)
+    return _build_analytics(df), df

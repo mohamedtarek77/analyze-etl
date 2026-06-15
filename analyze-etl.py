@@ -11,8 +11,9 @@ from rich.table import Table
 
 from pipeline import run_pipeline
 
-app     = typer.Typer(help="InsightDrop – sales analytics pipeline")
+app     = typer.Typer(help="analyze-etl – sales analytics pipeline")
 console = Console()
+
 
 # ── display ───────────────────────────────────────────────────────
 
@@ -24,7 +25,7 @@ def _print_analytics(analytics: dict):
     console.print(Panel(
         f"[dim]Period : {meta['date_range']['start']} → {meta['date_range']['end']}\n"
         f"Rows   : {meta['rows_processed']:,} orders processed[/]",
-        title="[bold magenta]InsightDrop Report[/]",
+        title="[bold magenta]analyze-etl Report[/]",
         border_style="magenta",
     ))
 

@@ -1,0 +1,501 @@
+order_id,product_name,category,quantity,price,cost,order_date,region
+ORD-0001,Whey Protein 1kg,Health,2,44.99,18.0,2024-12-25,East
+ORD-0002,Ergonomic Chair,Furniture,10,299.0,145.0,2024-11-01,East
+ORD-0003,LED Desk Lamp,Lighting,7,34.99,14.0,2024-07-16,East
+ORD-0004,Monitor Stand,Furniture,3,49.99,20.0,2024-10-29,East
+ORD-0005,Water Bottle 1L,Health,7,14.99,5.0,2024-06-08,East
+ORD-0006,Mechanical Keyboard,Electronics,7,89.99,38.0,2024-08-25,Central
+ORD-0007,Ballpoint Pens (12pk),Stationery,8,6.99,1.8,2024-11-03,South
+ORD-0008,USB-C Hub,Electronics,8,39.99,15.0,2024-02-03,Central
+ORD-0009,LED Desk Lamp,Lighting,1,34.99,14.0,2024-12-29,Central
+ORD-0010,Desk Organizer,Stationery,6,19.99,7.0,2024-12-13,East
+ORD-0011,Whey Protein 1kg,Health,1,44.99,18.0,2024-07-12,Central
+ORD-0012,Monitor Stand,Furniture,6,49.99,20.0,2024-12-28,West
+ORD-0013,Desk Organizer,Stationery,10,19.99,7.0,2024-10-21,East
+ORD-0014,Smart Bulb Pack,Lighting,9,24.99,9.0,2024-04-24,North
+ORD-0015,USB-C Hub,Electronics,3,39.99,15.0,2024-03-03,South
+ORD-0016,Webcam HD,Electronics,1,69.99,28.0,2024-08-06,West
+ORD-0017,Webcam HD,Electronics,1,69.99,28.0,2024-03-09,North
+ORD-0018,Smart Bulb Pack,Lighting,1,24.99,9.0,2024-01-30,East
+ORD-0019,Whey Protein 1kg,Health,5,44.99,18.0,2024-05-24,Central
+ORD-0020,Water Bottle 1L,Health,4,14.99,5.0,2024-05-11,East
+ORD-0021,Yoga Mat,Health,9,29.99,11.0,2024-12-28,West
+ORD-0022,Webcam HD,Electronics,10,69.99,28.0,2024-07-15,North
+ORD-0023,Desk Organizer,Stationery,6,19.99,7.0,2024-10-23,North
+ORD-0024,Standing Desk,Furniture,2,349.0,180.0,2024-11-21,South
+ORD-0025,Water Bottle 1L,Health,1,14.99,5.0,2024-08-31,South
+ORD-0026,Monitor Stand,Furniture,8,49.99,20.0,2024-02-11,Central
+ORD-0027,Water Bottle 1L,Health,7,14.99,5.0,2024-09-08,East
+ORD-0028,Yoga Mat,Health,6,29.99,11.0,2024-12-20,South
+ORD-0029,Whey Protein 1kg,Health,9,44.99,18.0,2024-12-05,Central
+ORD-0030,LED Desk Lamp,Lighting,10,34.99,14.0,2024-08-17,East
+ORD-0031,Ballpoint Pens (12pk),Stationery,7,6.99,1.8,2024-12-10,East
+ORD-0032,Whey Protein 1kg,Health,7,44.99,18.0,2024-11-27,South
+ORD-0033,Desk Organizer,Stationery,5,19.99,7.0,2024-12-05,West
+ORD-0034,Ergonomic Chair,Furniture,5,299.0,145.0,2024-02-10,South
+ORD-0035,Mechanical Keyboard,Electronics,8,89.99,38.0,2024-10-15,East
+ORD-0036,Desk Organizer,Stationery,3,19.99,7.0,2024-10-15,West
+ORD-0037,Wireless Mouse,Electronics,6,29.99,12.0,2024-06-19,South
+ORD-0038,Mechanical Keyboard,Electronics,4,89.99,38.0,2024-11-15,West
+ORD-0039,Mechanical Keyboard,Electronics,5,89.99,38.0,2024-12-20,Central
+ORD-0040,Monitor Stand,Furniture,1,49.99,20.0,2024-03-23,South
+ORD-0041,Desk Organizer,Stationery,7,19.99,7.0,2024-04-13,West
+ORD-0042,Water Bottle 1L,Health,2,14.99,5.0,2024-09-26,East
+ORD-0043,Water Bottle 1L,Health,8,14.99,5.0,2024-05-31,West
+ORD-0044,LED Desk Lamp,Lighting,7,34.99,14.0,2024-04-07,North
+ORD-0045,USB-C Hub,Electronics,8,39.99,15.0,2024-07-11,Central
+ORD-0046,Ballpoint Pens (12pk),Stationery,2,6.99,1.8,2024-10-22,North
+ORD-0047,Standing Desk,Furniture,3,349.0,180.0,2024-01-23,South
+ORD-0048,Wireless Mouse,Electronics,7,29.99,12.0,2024-03-16,South
+ORD-0049,Ballpoint Pens (12pk),Stationery,3,6.99,1.8,2024-03-27,East
+ORD-0050,Ergonomic Chair,Furniture,7,299.0,145.0,2024-08-05,East
+ORD-0051,Ergonomic Chair,Furniture,3,299.0,145.0,2024-09-06,North
+ORD-0052,Monitor Stand,Furniture,3,49.99,20.0,2024-11-30,Central
+ORD-0053,Smart Bulb Pack,Lighting,7,24.99,9.0,2024-10-08,Central
+ORD-0054,LED Desk Lamp,Lighting,3,34.99,14.0,2024-05-31,Central
+ORD-0055,Standing Desk,Furniture,3,349.0,180.0,2024-09-11,Central
+ORD-0056,Ergonomic Chair,Furniture,4,299.0,145.0,2024-11-15,South
+ORD-0057,Ballpoint Pens (12pk),Stationery,10,6.99,1.8,2024-10-31,West
+ORD-0058,Ergonomic Chair,Furniture,2,299.0,145.0,2024-08-13,North
+ORD-0059,Monitor Stand,Furniture,6,49.99,20.0,2024-11-07,West
+ORD-0060,Smart Bulb Pack,Lighting,10,24.99,9.0,2024-05-17,West
+ORD-0061,Mechanical Keyboard,Electronics,8,89.99,38.0,2024-11-27,West
+ORD-0062,Desk Organizer,Stationery,6,19.99,7.0,2024-12-06,West
+ORD-0063,Wireless Mouse,Electronics,5,29.99,12.0,2024-09-23,North
+ORD-0064,Ballpoint Pens (12pk),Stationery,8,6.99,1.8,2024-07-01,West
+ORD-0065,LED Desk Lamp,Lighting,8,34.99,14.0,2024-08-22,West
+ORD-0066,Yoga Mat,Health,10,29.99,11.0,2024-07-05,South
+ORD-0067,Yoga Mat,Health,4,29.99,11.0,2024-03-06,West
+ORD-0068,Monitor Stand,Furniture,10,49.99,20.0,2024-06-24,North
+ORD-0069,Water Bottle 1L,Health,3,14.99,5.0,2024-10-23,West
+ORD-0070,LED Desk Lamp,Lighting,9,34.99,14.0,2024-10-19,North
+ORD-0071,Webcam HD,Electronics,6,69.99,28.0,2024-10-05,East
+ORD-0072,Webcam HD,Electronics,1,69.99,28.0,2024-03-21,East
+ORD-0073,Webcam HD,Electronics,5,69.99,28.0,2024-03-06,Central
+ORD-0074,Desk Organizer,Stationery,1,19.99,7.0,2024-01-17,East
+ORD-0075,Ergonomic Chair,Furniture,7,299.0,145.0,2024-02-22,East
+ORD-0076,Whey Protein 1kg,Health,2,44.99,18.0,2024-06-03,North
+ORD-0077,Smart Bulb Pack,Lighting,9,24.99,9.0,2024-02-03,East
+ORD-0078,Wireless Mouse,Electronics,10,29.99,12.0,2024-04-16,East
+ORD-0079,Desk Organizer,Stationery,7,19.99,7.0,2024-08-29,South
+ORD-0080,Desk Organizer,Stationery,9,19.99,7.0,2024-08-23,West
+ORD-0081,Desk Organizer,Stationery,1,19.99,7.0,2024-03-22,North
+ORD-0082,Ballpoint Pens (12pk),Stationery,5,6.99,1.8,2024-01-26,North
+ORD-0083,Webcam HD,Electronics,6,69.99,28.0,2024-02-28,Central
+ORD-0084,Notebook A5,Stationery,4,8.99,2.5,2024-01-28,Central
+ORD-0085,Whey Protein 1kg,Health,8,44.99,18.0,2024-02-20,East
+ORD-0086,Webcam HD,Electronics,5,69.99,28.0,2024-08-22,East
+ORD-0087,Desk Organizer,Stationery,5,19.99,7.0,2024-07-01,East
+ORD-0088,Desk Organizer,Stationery,2,19.99,7.0,2024-06-22,East
+ORD-0089,Wireless Mouse,Electronics,6,29.99,12.0,2024-09-22,Central
+ORD-0090,Standing Desk,Furniture,1,349.0,180.0,2024-04-24,South
+ORD-0091,Mechanical Keyboard,Electronics,5,89.99,38.0,2024-10-16,East
+ORD-0092,Whey Protein 1kg,Health,4,44.99,18.0,2024-05-19,South
+ORD-0093,Webcam HD,Electronics,10,69.99,28.0,2024-01-14,South
+ORD-0094,Whey Protein 1kg,Health,6,44.99,18.0,2024-10-06,West
+ORD-0095,Whey Protein 1kg,Health,6,44.99,18.0,2024-12-01,East
+ORD-0096,Water Bottle 1L,Health,8,14.99,5.0,2024-03-29,East
+ORD-0097,Ballpoint Pens (12pk),Stationery,9,6.99,1.8,2024-02-08,West
+ORD-0098,Monitor Stand,Furniture,7,49.99,20.0,2024-08-24,West
+ORD-0099,Water Bottle 1L,Health,3,14.99,5.0,2024-03-28,Central
+ORD-0100,Notebook A5,Stationery,10,8.99,2.5,2024-05-26,Central
+ORD-0101,Wireless Mouse,Electronics,1,29.99,12.0,2024-01-11,North
+ORD-0102,Webcam HD,Electronics,9,69.99,28.0,2024-11-05,South
+ORD-0103,Ergonomic Chair,Furniture,8,299.0,145.0,2024-09-17,West
+ORD-0104,USB-C Hub,Electronics,1,39.99,15.0,2024-01-09,Central
+ORD-0105,Water Bottle 1L,Health,4,14.99,5.0,2024-08-03,Central
+ORD-0106,Desk Organizer,Stationery,1,19.99,7.0,2024-04-14,Central
+ORD-0107,Yoga Mat,Health,3,29.99,11.0,2024-10-30,East
+ORD-0108,Mechanical Keyboard,Electronics,2,89.99,38.0,2024-05-04,West
+ORD-0109,Monitor Stand,Furniture,7,49.99,20.0,2024-01-24,East
+ORD-0110,Webcam HD,Electronics,4,69.99,28.0,2024-09-13,North
+ORD-0111,Whey Protein 1kg,Health,9,44.99,18.0,2024-08-30,Central
+ORD-0112,LED Desk Lamp,Lighting,9,34.99,14.0,2024-12-03,South
+ORD-0113,USB-C Hub,Electronics,10,39.99,15.0,2024-03-02,South
+ORD-0114,Yoga Mat,Health,9,29.99,11.0,2024-03-24,South
+ORD-0115,USB-C Hub,Electronics,5,39.99,15.0,2024-05-16,South
+ORD-0116,Ergonomic Chair,Furniture,9,299.0,145.0,2024-03-28,South
+ORD-0117,Mechanical Keyboard,Electronics,8,89.99,38.0,2024-02-10,South
+ORD-0118,Water Bottle 1L,Health,3,14.99,5.0,2024-04-19,West
+ORD-0119,Webcam HD,Electronics,7,69.99,28.0,2024-06-26,North
+ORD-0120,LED Desk Lamp,Lighting,9,34.99,14.0,2024-11-11,North
+ORD-0121,Notebook A5,Stationery,7,8.99,2.5,2024-12-18,East
+ORD-0122,Water Bottle 1L,Health,2,14.99,5.0,2024-11-13,Central
+ORD-0123,Ballpoint Pens (12pk),Stationery,7,6.99,1.8,2024-03-03,North
+ORD-0124,Webcam HD,Electronics,8,69.99,28.0,2024-10-29,South
+ORD-0125,Notebook A5,Stationery,2,8.99,2.5,2024-01-23,East
+ORD-0126,Yoga Mat,Health,6,29.99,11.0,2024-03-31,West
+ORD-0127,Wireless Mouse,Electronics,10,29.99,12.0,2024-08-07,East
+ORD-0128,Mechanical Keyboard,Electronics,7,89.99,38.0,2024-05-06,East
+ORD-0129,Smart Bulb Pack,Lighting,1,24.99,9.0,2024-10-23,East
+ORD-0130,LED Desk Lamp,Lighting,10,34.99,14.0,2024-05-29,Central
+ORD-0131,LED Desk Lamp,Lighting,2,34.99,14.0,2024-04-26,East
+ORD-0132,Smart Bulb Pack,Lighting,10,24.99,9.0,2024-04-20,North
+ORD-0133,LED Desk Lamp,Lighting,4,34.99,14.0,2024-01-16,Central
+ORD-0134,Standing Desk,Furniture,7,349.0,180.0,2024-11-11,East
+ORD-0135,USB-C Hub,Electronics,6,39.99,15.0,2024-10-09,Central
+ORD-0136,Webcam HD,Electronics,1,69.99,28.0,2024-02-23,East
+ORD-0137,Ergonomic Chair,Furniture,1,299.0,145.0,2024-12-28,North
+ORD-0138,Webcam HD,Electronics,7,69.99,28.0,2024-04-26,West
+ORD-0139,Desk Organizer,Stationery,5,19.99,7.0,2024-04-22,North
+ORD-0140,Ergonomic Chair,Furniture,1,299.0,145.0,2024-11-30,South
+ORD-0141,Notebook A5,Stationery,5,8.99,2.5,2024-05-29,North
+ORD-0142,Smart Bulb Pack,Lighting,9,24.99,9.0,2024-05-19,South
+ORD-0143,Monitor Stand,Furniture,4,49.99,20.0,2024-05-07,Central
+ORD-0144,Standing Desk,Furniture,9,349.0,180.0,2024-10-17,West
+ORD-0145,Notebook A5,Stationery,8,8.99,2.5,2024-04-11,North
+ORD-0146,Standing Desk,Furniture,2,349.0,180.0,2024-07-03,North
+ORD-0147,Monitor Stand,Furniture,1,49.99,20.0,2024-01-27,South
+ORD-0148,USB-C Hub,Electronics,7,39.99,15.0,2024-06-25,South
+ORD-0149,USB-C Hub,Electronics,8,39.99,15.0,2024-05-02,North
+ORD-0150,USB-C Hub,Electronics,10,39.99,15.0,2024-02-15,West
+ORD-0151,LED Desk Lamp,Lighting,5,34.99,14.0,2024-12-16,South
+ORD-0152,Desk Organizer,Stationery,1,19.99,7.0,2024-09-13,East
+ORD-0153,Mechanical Keyboard,Electronics,1,89.99,38.0,2024-04-24,East
+ORD-0154,Desk Organizer,Stationery,3,19.99,7.0,2024-12-04,East
+ORD-0155,Notebook A5,Stationery,2,8.99,2.5,2024-08-10,West
+ORD-0156,Ballpoint Pens (12pk),Stationery,6,6.99,1.8,2024-07-15,West
+ORD-0157,Ergonomic Chair,Furniture,10,299.0,145.0,2024-04-28,North
+ORD-0158,Standing Desk,Furniture,10,349.0,180.0,2024-01-29,West
+ORD-0159,USB-C Hub,Electronics,6,39.99,15.0,2024-10-27,North
+ORD-0160,Monitor Stand,Furniture,5,49.99,20.0,2024-05-10,West
+ORD-0161,LED Desk Lamp,Lighting,4,34.99,14.0,2024-08-07,Central
+ORD-0162,Whey Protein 1kg,Health,4,44.99,18.0,2024-12-22,North
+ORD-0163,Water Bottle 1L,Health,7,14.99,5.0,2024-05-24,North
+ORD-0164,USB-C Hub,Electronics,3,39.99,15.0,2024-08-25,Central
+ORD-0165,Water Bottle 1L,Health,3,14.99,5.0,2024-05-30,Central
+ORD-0166,Ballpoint Pens (12pk),Stationery,9,6.99,1.8,2024-03-02,West
+ORD-0167,Ergonomic Chair,Furniture,9,299.0,145.0,2024-04-24,Central
+ORD-0168,Whey Protein 1kg,Health,5,44.99,18.0,2024-12-21,Central
+ORD-0169,Ergonomic Chair,Furniture,6,299.0,145.0,2024-06-01,North
+ORD-0170,Mechanical Keyboard,Electronics,3,89.99,38.0,2024-06-16,North
+ORD-0171,Yoga Mat,Health,5,29.99,11.0,2024-04-03,East
+ORD-0172,Yoga Mat,Health,6,29.99,11.0,2024-12-25,South
+ORD-0173,Mechanical Keyboard,Electronics,10,89.99,38.0,2024-06-05,West
+ORD-0174,Webcam HD,Electronics,3,69.99,28.0,2024-04-21,North
+ORD-0175,Webcam HD,Electronics,7,69.99,28.0,2024-03-17,Central
+ORD-0176,Notebook A5,Stationery,1,8.99,2.5,2024-06-26,Central
+ORD-0177,Webcam HD,Electronics,5,69.99,28.0,2024-11-03,East
+ORD-0178,LED Desk Lamp,Lighting,5,34.99,14.0,2024-02-26,West
+ORD-0179,Notebook A5,Stationery,1,8.99,2.5,2024-04-15,Central
+ORD-0180,Ballpoint Pens (12pk),Stationery,2,6.99,1.8,2024-07-17,South
+ORD-0181,Whey Protein 1kg,Health,8,44.99,18.0,2024-04-15,West
+ORD-0182,Ballpoint Pens (12pk),Stationery,3,6.99,1.8,2024-07-02,West
+ORD-0183,Webcam HD,Electronics,4,69.99,28.0,2024-01-09,South
+ORD-0184,Notebook A5,Stationery,9,8.99,2.5,2024-08-02,East
+ORD-0185,Standing Desk,Furniture,1,349.0,180.0,2024-12-14,South
+ORD-0186,Monitor Stand,Furniture,4,49.99,20.0,2024-05-25,East
+ORD-0187,Yoga Mat,Health,8,29.99,11.0,2024-03-14,Central
+ORD-0188,Yoga Mat,Health,2,29.99,11.0,2024-01-11,Central
+ORD-0189,Desk Organizer,Stationery,9,19.99,7.0,2024-04-29,West
+ORD-0190,Monitor Stand,Furniture,6,49.99,20.0,2024-06-19,West
+ORD-0191,USB-C Hub,Electronics,5,39.99,15.0,2024-11-12,North
+ORD-0192,Webcam HD,Electronics,9,69.99,28.0,2024-05-07,West
+ORD-0193,Monitor Stand,Furniture,2,49.99,20.0,2024-07-03,North
+ORD-0194,Yoga Mat,Health,4,29.99,11.0,2024-12-07,West
+ORD-0195,Water Bottle 1L,Health,9,14.99,5.0,2024-05-18,Central
+ORD-0196,Whey Protein 1kg,Health,5,44.99,18.0,2024-09-29,West
+ORD-0197,Water Bottle 1L,Health,3,14.99,5.0,2024-06-07,North
+ORD-0198,Monitor Stand,Furniture,10,49.99,20.0,2024-02-13,West
+ORD-0199,Mechanical Keyboard,Electronics,7,89.99,38.0,2024-02-23,West
+ORD-0200,Standing Desk,Furniture,5,349.0,180.0,2024-08-15,West
+ORD-0201,Notebook A5,Stationery,6,8.99,2.5,2024-07-24,East
+ORD-0202,Wireless Mouse,Electronics,7,29.99,12.0,2024-08-14,Central
+ORD-0203,USB-C Hub,Electronics,10,39.99,15.0,2024-01-21,Central
+ORD-0204,Ballpoint Pens (12pk),Stationery,7,6.99,1.8,2024-09-09,South
+ORD-0205,Notebook A5,Stationery,9,8.99,2.5,2024-03-12,East
+ORD-0206,Wireless Mouse,Electronics,1,29.99,12.0,2024-09-03,East
+ORD-0207,Whey Protein 1kg,Health,5,44.99,18.0,2024-11-04,North
+ORD-0208,Webcam HD,Electronics,5,69.99,28.0,2024-07-26,South
+ORD-0209,Wireless Mouse,Electronics,9,29.99,12.0,2024-08-16,Central
+ORD-0210,Smart Bulb Pack,Lighting,6,24.99,9.0,2024-10-04,West
+ORD-0211,Smart Bulb Pack,Lighting,10,24.99,9.0,2024-07-31,East
+ORD-0212,Ergonomic Chair,Furniture,4,299.0,145.0,2024-02-24,South
+ORD-0213,Water Bottle 1L,Health,1,14.99,5.0,2024-02-12,South
+ORD-0214,Standing Desk,Furniture,2,349.0,180.0,2024-10-26,East
+ORD-0215,Notebook A5,Stationery,6,8.99,2.5,2024-02-26,North
+ORD-0216,Wireless Mouse,Electronics,7,29.99,12.0,2024-02-26,East
+ORD-0217,USB-C Hub,Electronics,3,39.99,15.0,2024-01-21,North
+ORD-0218,Webcam HD,Electronics,6,69.99,28.0,2024-05-16,East
+ORD-0219,Mechanical Keyboard,Electronics,8,89.99,38.0,2024-06-13,Central
+ORD-0220,Whey Protein 1kg,Health,1,44.99,18.0,2024-08-14,East
+ORD-0221,LED Desk Lamp,Lighting,6,34.99,14.0,2024-10-23,South
+ORD-0222,Yoga Mat,Health,8,29.99,11.0,2024-01-12,East
+ORD-0223,Notebook A5,Stationery,10,8.99,2.5,2024-07-07,East
+ORD-0224,USB-C Hub,Electronics,7,39.99,15.0,2024-01-31,Central
+ORD-0225,Whey Protein 1kg,Health,2,44.99,18.0,2024-05-10,Central
+ORD-0226,Webcam HD,Electronics,7,69.99,28.0,2024-08-01,Central
+ORD-0227,Monitor Stand,Furniture,1,49.99,20.0,2024-09-24,West
+ORD-0228,Notebook A5,Stationery,8,8.99,2.5,2024-04-18,Central
+ORD-0229,Desk Organizer,Stationery,3,19.99,7.0,2024-09-07,West
+ORD-0230,Ballpoint Pens (12pk),Stationery,5,6.99,1.8,2024-04-01,West
+ORD-0231,Yoga Mat,Health,6,29.99,11.0,2024-04-02,West
+ORD-0232,Desk Organizer,Stationery,9,19.99,7.0,2024-12-30,North
+ORD-0233,Wireless Mouse,Electronics,4,29.99,12.0,2024-04-17,West
+ORD-0234,Desk Organizer,Stationery,2,19.99,7.0,2024-11-22,East
+ORD-0235,Ergonomic Chair,Furniture,10,299.0,145.0,2024-07-06,Central
+ORD-0236,Whey Protein 1kg,Health,8,44.99,18.0,2024-01-09,Central
+ORD-0237,Yoga Mat,Health,4,29.99,11.0,2024-10-31,North
+ORD-0238,Ballpoint Pens (12pk),Stationery,9,6.99,1.8,2024-10-20,Central
+ORD-0239,Monitor Stand,Furniture,1,49.99,20.0,2024-02-27,North
+ORD-0240,Whey Protein 1kg,Health,8,44.99,18.0,2024-01-06,North
+ORD-0241,Whey Protein 1kg,Health,5,44.99,18.0,2024-06-24,West
+ORD-0242,USB-C Hub,Electronics,6,39.99,15.0,2024-10-22,Central
+ORD-0243,Water Bottle 1L,Health,5,14.99,5.0,2024-10-25,Central
+ORD-0244,Ballpoint Pens (12pk),Stationery,10,6.99,1.8,2024-03-20,West
+ORD-0245,Notebook A5,Stationery,6,8.99,2.5,2024-06-11,Central
+ORD-0246,USB-C Hub,Electronics,9,39.99,15.0,2024-10-23,Central
+ORD-0247,Desk Organizer,Stationery,5,19.99,7.0,2024-12-15,South
+ORD-0248,Yoga Mat,Health,2,29.99,11.0,2024-07-05,North
+ORD-0249,Ballpoint Pens (12pk),Stationery,6,6.99,1.8,2024-01-02,Central
+ORD-0250,Ergonomic Chair,Furniture,4,299.0,145.0,2024-06-30,South
+ORD-0251,Desk Organizer,Stationery,5,19.99,7.0,2024-05-31,South
+ORD-0252,Monitor Stand,Furniture,9,49.99,20.0,2024-03-18,South
+ORD-0253,Water Bottle 1L,Health,2,14.99,5.0,2024-03-24,West
+ORD-0254,LED Desk Lamp,Lighting,6,34.99,14.0,2024-07-06,West
+ORD-0255,Smart Bulb Pack,Lighting,5,24.99,9.0,2024-04-11,Central
+ORD-0256,Wireless Mouse,Electronics,2,29.99,12.0,2024-10-11,North
+ORD-0257,Ergonomic Chair,Furniture,8,299.0,145.0,2024-07-23,East
+ORD-0258,USB-C Hub,Electronics,5,39.99,15.0,2024-09-06,South
+ORD-0259,Webcam HD,Electronics,10,69.99,28.0,2024-11-18,North
+ORD-0260,Water Bottle 1L,Health,9,14.99,5.0,2024-08-11,South
+ORD-0261,Wireless Mouse,Electronics,7,29.99,12.0,2024-04-29,East
+ORD-0262,Ergonomic Chair,Furniture,2,299.0,145.0,2024-02-12,South
+ORD-0263,Monitor Stand,Furniture,4,49.99,20.0,2024-12-13,South
+ORD-0264,Desk Organizer,Stationery,2,19.99,7.0,2024-01-24,West
+ORD-0265,Monitor Stand,Furniture,9,49.99,20.0,2024-01-29,North
+ORD-0266,Monitor Stand,Furniture,7,49.99,20.0,2024-03-30,East
+ORD-0267,LED Desk Lamp,Lighting,9,34.99,14.0,2024-10-20,West
+ORD-0268,Ergonomic Chair,Furniture,3,299.0,145.0,2024-11-02,Central
+ORD-0269,Ballpoint Pens (12pk),Stationery,10,6.99,1.8,2024-12-25,North
+ORD-0270,Water Bottle 1L,Health,2,14.99,5.0,2024-05-15,East
+ORD-0271,LED Desk Lamp,Lighting,3,34.99,14.0,2024-09-20,Central
+ORD-0272,Desk Organizer,Stationery,3,19.99,7.0,2024-01-06,Central
+ORD-0273,Ergonomic Chair,Furniture,8,299.0,145.0,2024-03-10,South
+ORD-0274,USB-C Hub,Electronics,7,39.99,15.0,2024-06-17,Central
+ORD-0275,LED Desk Lamp,Lighting,1,34.99,14.0,2024-11-24,East
+ORD-0276,Mechanical Keyboard,Electronics,1,89.99,38.0,2024-06-02,East
+ORD-0277,Wireless Mouse,Electronics,4,29.99,12.0,2024-07-14,West
+ORD-0278,LED Desk Lamp,Lighting,5,34.99,14.0,2024-11-20,North
+ORD-0279,Yoga Mat,Health,2,29.99,11.0,2024-03-08,South
+ORD-0280,Desk Organizer,Stationery,1,19.99,7.0,2024-11-20,East
+ORD-0281,Monitor Stand,Furniture,10,49.99,20.0,2024-09-07,Central
+ORD-0282,LED Desk Lamp,Lighting,6,34.99,14.0,2024-05-06,North
+ORD-0283,Desk Organizer,Stationery,2,19.99,7.0,2024-06-30,North
+ORD-0284,Webcam HD,Electronics,6,69.99,28.0,2024-08-15,South
+ORD-0285,Desk Organizer,Stationery,4,19.99,7.0,2024-08-08,East
+ORD-0286,Whey Protein 1kg,Health,10,44.99,18.0,2024-06-27,North
+ORD-0287,Ballpoint Pens (12pk),Stationery,8,6.99,1.8,2024-12-04,North
+ORD-0288,Notebook A5,Stationery,10,8.99,2.5,2024-11-20,North
+ORD-0289,USB-C Hub,Electronics,9,39.99,15.0,2024-07-12,North
+ORD-0290,Smart Bulb Pack,Lighting,8,24.99,9.0,2024-04-17,North
+ORD-0291,Webcam HD,Electronics,8,69.99,28.0,2024-03-30,North
+ORD-0292,Notebook A5,Stationery,5,8.99,2.5,2024-07-01,Central
+ORD-0293,Water Bottle 1L,Health,7,14.99,5.0,2024-11-08,East
+ORD-0294,Ballpoint Pens (12pk),Stationery,5,6.99,1.8,2024-07-21,Central
+ORD-0295,Ballpoint Pens (12pk),Stationery,9,6.99,1.8,2024-07-30,East
+ORD-0296,Mechanical Keyboard,Electronics,4,89.99,38.0,2024-12-15,South
+ORD-0297,Monitor Stand,Furniture,5,49.99,20.0,2024-02-07,Central
+ORD-0298,Wireless Mouse,Electronics,8,29.99,12.0,2024-09-22,West
+ORD-0299,Ballpoint Pens (12pk),Stationery,3,6.99,1.8,2024-07-04,South
+ORD-0300,LED Desk Lamp,Lighting,3,34.99,14.0,2024-12-27,East
+ORD-0301,Ergonomic Chair,Furniture,9,299.0,145.0,2024-08-12,West
+ORD-0302,Whey Protein 1kg,Health,10,44.99,18.0,2024-05-17,East
+ORD-0303,Mechanical Keyboard,Electronics,1,89.99,38.0,2024-07-30,East
+ORD-0304,Standing Desk,Furniture,8,349.0,180.0,2024-09-04,East
+ORD-0305,USB-C Hub,Electronics,4,39.99,15.0,2024-07-18,North
+ORD-0306,Webcam HD,Electronics,7,69.99,28.0,2024-09-09,East
+ORD-0307,Water Bottle 1L,Health,3,14.99,5.0,2024-02-11,West
+ORD-0308,Ergonomic Chair,Furniture,7,299.0,145.0,2024-09-23,Central
+ORD-0309,Monitor Stand,Furniture,1,49.99,20.0,2024-12-06,East
+ORD-0310,Desk Organizer,Stationery,1,19.99,7.0,2024-08-20,North
+ORD-0311,Yoga Mat,Health,6,29.99,11.0,2024-02-07,South
+ORD-0312,Whey Protein 1kg,Health,7,44.99,18.0,2024-10-28,Central
+ORD-0313,Mechanical Keyboard,Electronics,7,89.99,38.0,2024-04-20,North
+ORD-0314,Water Bottle 1L,Health,2,14.99,5.0,2024-07-25,East
+ORD-0315,Mechanical Keyboard,Electronics,7,89.99,38.0,2024-04-20,West
+ORD-0316,LED Desk Lamp,Lighting,9,34.99,14.0,2024-05-25,East
+ORD-0317,Notebook A5,Stationery,6,8.99,2.5,2024-04-18,West
+ORD-0318,Standing Desk,Furniture,7,349.0,180.0,2024-03-09,North
+ORD-0319,Notebook A5,Stationery,10,8.99,2.5,2024-12-09,East
+ORD-0320,Whey Protein 1kg,Health,8,44.99,18.0,2024-08-28,East
+ORD-0321,Smart Bulb Pack,Lighting,4,24.99,9.0,2024-10-05,North
+ORD-0322,Standing Desk,Furniture,5,349.0,180.0,2024-04-30,Central
+ORD-0323,USB-C Hub,Electronics,3,39.99,15.0,2024-05-07,South
+ORD-0324,Ballpoint Pens (12pk),Stationery,4,6.99,1.8,2024-02-20,Central
+ORD-0325,Whey Protein 1kg,Health,1,44.99,18.0,2024-06-21,South
+ORD-0326,USB-C Hub,Electronics,5,39.99,15.0,2024-03-22,East
+ORD-0327,LED Desk Lamp,Lighting,5,34.99,14.0,2024-07-15,Central
+ORD-0328,Yoga Mat,Health,4,29.99,11.0,2024-07-25,North
+ORD-0329,Yoga Mat,Health,6,29.99,11.0,2024-12-17,North
+ORD-0330,Notebook A5,Stationery,5,8.99,2.5,2024-12-29,South
+ORD-0331,Smart Bulb Pack,Lighting,6,24.99,9.0,2024-10-25,South
+ORD-0332,Notebook A5,Stationery,4,8.99,2.5,2024-02-01,West
+ORD-0333,Whey Protein 1kg,Health,2,44.99,18.0,2024-04-21,West
+ORD-0334,Standing Desk,Furniture,1,349.0,180.0,2024-06-24,West
+ORD-0335,Wireless Mouse,Electronics,10,29.99,12.0,2024-02-03,South
+ORD-0336,USB-C Hub,Electronics,8,39.99,15.0,2024-08-10,South
+ORD-0337,Whey Protein 1kg,Health,9,44.99,18.0,2024-01-18,West
+ORD-0338,Whey Protein 1kg,Health,3,44.99,18.0,2024-07-13,East
+ORD-0339,Water Bottle 1L,Health,3,14.99,5.0,2024-07-25,South
+ORD-0340,Webcam HD,Electronics,8,69.99,28.0,2024-05-13,East
+ORD-0341,Yoga Mat,Health,7,29.99,11.0,2024-06-12,South
+ORD-0342,Yoga Mat,Health,5,29.99,11.0,2024-04-19,East
+ORD-0343,Whey Protein 1kg,Health,5,44.99,18.0,2024-07-28,West
+ORD-0344,Smart Bulb Pack,Lighting,8,24.99,9.0,2024-09-12,Central
+ORD-0345,USB-C Hub,Electronics,9,39.99,15.0,2024-10-11,East
+ORD-0346,Smart Bulb Pack,Lighting,10,24.99,9.0,2024-08-16,Central
+ORD-0347,Wireless Mouse,Electronics,8,29.99,12.0,2024-04-14,Central
+ORD-0348,LED Desk Lamp,Lighting,2,34.99,14.0,2024-01-19,North
+ORD-0349,Smart Bulb Pack,Lighting,10,24.99,9.0,2024-07-24,West
+ORD-0350,USB-C Hub,Electronics,4,39.99,15.0,2024-05-09,North
+ORD-0351,USB-C Hub,Electronics,4,39.99,15.0,2024-06-24,Central
+ORD-0352,Notebook A5,Stationery,4,8.99,2.5,2024-09-17,North
+ORD-0353,LED Desk Lamp,Lighting,4,34.99,14.0,2024-05-25,West
+ORD-0354,Wireless Mouse,Electronics,9,29.99,12.0,2024-12-12,North
+ORD-0355,Ergonomic Chair,Furniture,9,299.0,145.0,2024-05-21,West
+ORD-0356,Smart Bulb Pack,Lighting,6,24.99,9.0,2024-02-23,East
+ORD-0357,Mechanical Keyboard,Electronics,1,89.99,38.0,2024-12-06,North
+ORD-0358,Wireless Mouse,Electronics,9,29.99,12.0,2024-05-25,South
+ORD-0359,Smart Bulb Pack,Lighting,4,24.99,9.0,2024-12-02,Central
+ORD-0360,Webcam HD,Electronics,8,69.99,28.0,2024-02-28,South
+ORD-0361,Yoga Mat,Health,10,29.99,11.0,2024-11-09,South
+ORD-0362,USB-C Hub,Electronics,2,39.99,15.0,2024-07-26,North
+ORD-0363,Water Bottle 1L,Health,8,14.99,5.0,2024-01-31,West
+ORD-0364,Wireless Mouse,Electronics,7,29.99,12.0,2024-09-27,East
+ORD-0365,LED Desk Lamp,Lighting,7,34.99,14.0,2024-10-07,North
+ORD-0366,Standing Desk,Furniture,2,349.0,180.0,2024-06-08,Central
+ORD-0367,Ballpoint Pens (12pk),Stationery,7,6.99,1.8,2024-05-22,North
+ORD-0368,USB-C Hub,Electronics,3,39.99,15.0,2024-05-31,Central
+ORD-0369,Notebook A5,Stationery,9,8.99,2.5,2024-07-14,Central
+ORD-0370,Smart Bulb Pack,Lighting,7,24.99,9.0,2024-06-17,West
+ORD-0371,Ballpoint Pens (12pk),Stationery,10,6.99,1.8,2024-07-20,East
+ORD-0372,Webcam HD,Electronics,8,69.99,28.0,2024-06-15,West
+ORD-0373,Monitor Stand,Furniture,6,49.99,20.0,2024-02-03,Central
+ORD-0374,Monitor Stand,Furniture,9,49.99,20.0,2024-04-27,West
+ORD-0375,Webcam HD,Electronics,9,69.99,28.0,2024-05-01,East
+ORD-0376,LED Desk Lamp,Lighting,6,34.99,14.0,2024-10-26,West
+ORD-0377,USB-C Hub,Electronics,3,39.99,15.0,2024-10-07,West
+ORD-0378,Ergonomic Chair,Furniture,5,299.0,145.0,2024-05-22,South
+ORD-0379,Mechanical Keyboard,Electronics,1,89.99,38.0,2024-01-21,North
+ORD-0380,Mechanical Keyboard,Electronics,8,89.99,38.0,2024-10-17,Central
+ORD-0381,LED Desk Lamp,Lighting,8,34.99,14.0,2024-08-23,East
+ORD-0382,Mechanical Keyboard,Electronics,3,89.99,38.0,2024-05-21,East
+ORD-0383,Mechanical Keyboard,Electronics,1,89.99,38.0,2024-08-02,North
+ORD-0384,Ergonomic Chair,Furniture,8,299.0,145.0,2024-01-13,Central
+ORD-0385,Notebook A5,Stationery,3,8.99,2.5,2024-05-16,North
+ORD-0386,Standing Desk,Furniture,8,349.0,180.0,2024-05-01,Central
+ORD-0387,Wireless Mouse,Electronics,2,29.99,12.0,2024-04-09,South
+ORD-0388,LED Desk Lamp,Lighting,8,34.99,14.0,2024-12-04,South
+ORD-0389,Mechanical Keyboard,Electronics,1,89.99,38.0,2024-12-21,Central
+ORD-0390,USB-C Hub,Electronics,9,39.99,15.0,2024-10-17,West
+ORD-0391,Standing Desk,Furniture,1,349.0,180.0,2024-03-14,East
+ORD-0392,Standing Desk,Furniture,9,349.0,180.0,2024-05-09,East
+ORD-0393,USB-C Hub,Electronics,10,39.99,15.0,2024-11-30,South
+ORD-0394,LED Desk Lamp,Lighting,4,34.99,14.0,2024-10-29,East
+ORD-0395,Yoga Mat,Health,1,29.99,11.0,2024-09-26,West
+ORD-0396,Monitor Stand,Furniture,4,49.99,20.0,2024-04-27,Central
+ORD-0397,Ergonomic Chair,Furniture,8,299.0,145.0,2024-08-16,South
+ORD-0398,Ballpoint Pens (12pk),Stationery,6,6.99,1.8,2024-07-23,Central
+ORD-0399,Yoga Mat,Health,3,29.99,11.0,2024-02-02,West
+ORD-0400,Wireless Mouse,Electronics,2,29.99,12.0,2024-11-30,West
+ORD-0401,Water Bottle 1L,Health,8,14.99,5.0,2024-02-14,East
+ORD-0402,Monitor Stand,Furniture,9,49.99,20.0,2024-12-01,East
+ORD-0403,Mechanical Keyboard,Electronics,2,89.99,38.0,2024-07-02,Central
+ORD-0404,Mechanical Keyboard,Electronics,1,89.99,38.0,2024-08-16,South
+ORD-0405,Smart Bulb Pack,Lighting,5,24.99,9.0,2024-07-01,East
+ORD-0406,LED Desk Lamp,Lighting,7,34.99,14.0,2024-05-30,West
+ORD-0407,Whey Protein 1kg,Health,1,44.99,18.0,2024-11-19,South
+ORD-0408,Ballpoint Pens (12pk),Stationery,7,6.99,1.8,2024-11-10,East
+ORD-0409,Ballpoint Pens (12pk),Stationery,10,6.99,1.8,2024-06-03,West
+ORD-0410,Wireless Mouse,Electronics,10,29.99,12.0,2024-05-03,South
+ORD-0411,USB-C Hub,Electronics,2,39.99,15.0,2024-07-01,South
+ORD-0412,Desk Organizer,Stationery,2,19.99,7.0,2024-04-05,North
+ORD-0413,Whey Protein 1kg,Health,4,44.99,18.0,2024-08-03,Central
+ORD-0414,Notebook A5,Stationery,4,8.99,2.5,2024-12-27,Central
+ORD-0415,Standing Desk,Furniture,7,349.0,180.0,2024-05-11,South
+ORD-0416,Water Bottle 1L,Health,10,14.99,5.0,2024-08-15,North
+ORD-0417,Standing Desk,Furniture,9,349.0,180.0,2024-01-20,Central
+ORD-0418,Water Bottle 1L,Health,4,14.99,5.0,2024-07-07,Central
+ORD-0419,Water Bottle 1L,Health,1,14.99,5.0,2024-03-26,North
+ORD-0420,USB-C Hub,Electronics,4,39.99,15.0,2024-04-04,East
+ORD-0421,USB-C Hub,Electronics,9,39.99,15.0,2024-01-07,South
+ORD-0422,Ergonomic Chair,Furniture,5,299.0,145.0,2024-07-06,Central
+ORD-0423,Monitor Stand,Furniture,5,49.99,20.0,2024-04-02,North
+ORD-0424,USB-C Hub,Electronics,9,39.99,15.0,2024-05-08,South
+ORD-0425,Mechanical Keyboard,Electronics,7,89.99,38.0,2024-04-10,East
+ORD-0426,LED Desk Lamp,Lighting,3,34.99,14.0,2024-10-28,East
+ORD-0427,Standing Desk,Furniture,5,349.0,180.0,2024-12-04,East
+ORD-0428,Monitor Stand,Furniture,8,49.99,20.0,2024-05-13,West
+ORD-0429,Mechanical Keyboard,Electronics,5,89.99,38.0,2024-07-17,East
+ORD-0430,Ergonomic Chair,Furniture,5,299.0,145.0,2024-05-25,South
+ORD-0431,Smart Bulb Pack,Lighting,9,24.99,9.0,2024-11-13,North
+ORD-0432,Yoga Mat,Health,10,29.99,11.0,2024-10-12,South
+ORD-0433,Monitor Stand,Furniture,8,49.99,20.0,2024-06-18,East
+ORD-0434,LED Desk Lamp,Lighting,9,34.99,14.0,2024-06-11,East
+ORD-0435,Ergonomic Chair,Furniture,2,299.0,145.0,2024-01-24,West
+ORD-0436,Mechanical Keyboard,Electronics,4,89.99,38.0,2024-04-17,North
+ORD-0437,Smart Bulb Pack,Lighting,9,24.99,9.0,2024-08-02,Central
+ORD-0438,Ballpoint Pens (12pk),Stationery,9,6.99,1.8,2024-02-25,West
+ORD-0439,Wireless Mouse,Electronics,1,29.99,12.0,2024-11-18,Central
+ORD-0440,Mechanical Keyboard,Electronics,2,89.99,38.0,2024-06-13,East
+ORD-0441,Whey Protein 1kg,Health,6,44.99,18.0,2024-06-24,North
+ORD-0442,USB-C Hub,Electronics,9,39.99,15.0,2024-12-11,East
+ORD-0443,Wireless Mouse,Electronics,9,29.99,12.0,2024-07-09,Central
+ORD-0444,Whey Protein 1kg,Health,6,44.99,18.0,2024-12-08,South
+ORD-0445,USB-C Hub,Electronics,5,39.99,15.0,2024-01-17,East
+ORD-0446,Yoga Mat,Health,4,29.99,11.0,2024-10-10,North
+ORD-0447,Water Bottle 1L,Health,4,14.99,5.0,2024-09-09,Central
+ORD-0448,Yoga Mat,Health,1,29.99,11.0,2024-06-10,North
+ORD-0449,Webcam HD,Electronics,5,69.99,28.0,2024-04-22,North
+ORD-0450,Ballpoint Pens (12pk),Stationery,10,6.99,1.8,2024-10-03,South
+ORD-0451,Webcam HD,Electronics,5,69.99,28.0,2024-07-17,East
+ORD-0452,Webcam HD,Electronics,8,69.99,28.0,2024-12-23,East
+ORD-0453,Ballpoint Pens (12pk),Stationery,4,6.99,1.8,2024-04-24,East
+ORD-0454,Water Bottle 1L,Health,2,14.99,5.0,2024-06-28,East
+ORD-0455,Whey Protein 1kg,Health,8,44.99,18.0,2024-07-22,East
+ORD-0456,Ballpoint Pens (12pk),Stationery,8,6.99,1.8,2024-01-23,North
+ORD-0457,Yoga Mat,Health,10,29.99,11.0,2024-02-06,North
+ORD-0458,Smart Bulb Pack,Lighting,6,24.99,9.0,2024-11-06,South
+ORD-0459,Ergonomic Chair,Furniture,8,299.0,145.0,2024-01-18,South
+ORD-0460,Webcam HD,Electronics,3,69.99,28.0,2024-09-10,North
+ORD-0461,LED Desk Lamp,Lighting,9,34.99,14.0,2024-03-14,East
+ORD-0462,Desk Organizer,Stationery,9,19.99,7.0,2024-08-27,West
+ORD-0463,Desk Organizer,Stationery,4,19.99,7.0,2024-10-20,North
+ORD-0464,Wireless Mouse,Electronics,10,29.99,12.0,2024-09-07,North
+ORD-0465,Desk Organizer,Stationery,8,19.99,7.0,2024-09-15,West
+ORD-0466,Notebook A5,Stationery,3,8.99,2.5,2024-09-03,Central
+ORD-0467,USB-C Hub,Electronics,10,39.99,15.0,2024-04-09,East
+ORD-0468,Wireless Mouse,Electronics,1,29.99,12.0,2024-02-20,West
+ORD-0469,Desk Organizer,Stationery,2,19.99,7.0,2024-10-01,West
+ORD-0470,Desk Organizer,Stationery,4,19.99,7.0,2024-05-15,West
+ORD-0471,Whey Protein 1kg,Health,3,44.99,18.0,2024-07-07,East
+ORD-0472,Notebook A5,Stationery,9,8.99,2.5,2024-03-09,Central
+ORD-0473,Notebook A5,Stationery,7,8.99,2.5,2024-12-02,North
+ORD-0474,Standing Desk,Furniture,9,349.0,180.0,2024-12-06,West
+ORD-0475,Water Bottle 1L,Health,5,14.99,5.0,2024-05-30,Central
+ORD-0476,USB-C Hub,Electronics,7,39.99,15.0,2024-02-24,East
+ORD-0477,Desk Organizer,Stationery,5,19.99,7.0,2024-09-11,East
+ORD-0478,Water Bottle 1L,Health,9,14.99,5.0,2024-02-17,West
+ORD-0479,Ballpoint Pens (12pk),Stationery,5,6.99,1.8,2024-08-09,South
+ORD-0480,Whey Protein 1kg,Health,1,44.99,18.0,2024-08-02,West
+ORD-0481,Mechanical Keyboard,Electronics,6,89.99,38.0,2024-07-12,North
+ORD-0482,Wireless Mouse,Electronics,6,29.99,12.0,2024-06-14,East
+ORD-0483,Notebook A5,Stationery,10,8.99,2.5,2024-08-14,South
+ORD-0484,Whey Protein 1kg,Health,10,44.99,18.0,2024-05-16,Central
+ORD-0485,Smart Bulb Pack,Lighting,1,24.99,9.0,2024-11-28,North
+ORD-0486,Yoga Mat,Health,6,29.99,11.0,2024-05-04,Central
+ORD-0487,Desk Organizer,Stationery,10,19.99,7.0,2024-04-10,North
+ORD-0488,Water Bottle 1L,Health,4,14.99,5.0,2024-04-14,West
+ORD-0489,Ballpoint Pens (12pk),Stationery,5,6.99,1.8,2024-04-27,East
+ORD-0490,Desk Organizer,Stationery,5,19.99,7.0,2024-11-24,South
+ORD-0491,Ballpoint Pens (12pk),Stationery,5,6.99,1.8,2024-06-10,Central
+ORD-0492,Desk Organizer,Stationery,9,19.99,7.0,2024-02-26,West
+ORD-0493,Water Bottle 1L,Health,4,14.99,5.0,2024-05-28,Central
+ORD-0494,Water Bottle 1L,Health,4,14.99,5.0,2024-12-29,South
+ORD-0495,Desk Organizer,Stationery,7,19.99,7.0,2024-04-06,North
+ORD-0496,Ergonomic Chair,Furniture,9,299.0,145.0,2024-05-08,East
+ORD-0497,Webcam HD,Electronics,10,69.99,28.0,2024-03-05,North
+ORD-0498,Ballpoint Pens (12pk),Stationery,3,6.99,1.8,2024-10-11,East
+ORD-0499,Water Bottle 1L,Health,4,14.99,5.0,2024-03-17,Central
+ORD-0500,Smart Bulb Pack,Lighting,5,24.99,9.0,2024-07-18,East
